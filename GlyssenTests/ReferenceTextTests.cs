@@ -1014,6 +1014,38 @@ namespace GlyssenTests
 		}
 
 		[Test]
+		public void ApplyTo_ReferenceVerse2StartsInVerse1Block_VernacularDoesNotHaveVerse2NarratorText_VernacularNotSplitAtVerse()
+		{
+			var vernacularBlocks = new List<Block>();
+//			vernacularBlocks.Add(CreateNarratorBlockForVerse(25, "Vernacular Verse 25", true));
+//			vernacularBlocks.Add(CreateBlockForVerse(CharacterVerseData.GetStandardCharacterId("MAT", CharacterVerseData.StandardCharacter.BookOrChapter), 0, "MATTHEW 2", true, 2, "c"));
+//			vernacularBlocks.Add(CreateBlockForVerse(CharacterVerseData.GetStandardCharacterId("MAT", CharacterVerseData.StandardCharacter.ExtraBiblical), 0, "SH", true, 2, "s"));
+			vernacularBlocks.Add(CreateNarratorBlockForVerse(1, "Cuando Jesús nació en Belén de Judea en días del rey Herodes, he aquí unos magos vinieron del oriente a Jerusalén, diciendo: ", true, 2));
+			vernacularBlocks.Add(CreateBlockForVerse("magi (wise men from East)", 2, "“¿Dónde está el que ha nacido Rey de los Judios? Porque vimos su estrella en el oriente, y venimos a adorarle”.", false, 2));
+			var vernBook = new BookScript("MAT", vernacularBlocks);
+
+			var referenceBlocks = new List<Block>();
+//			referenceBlocks.Add(CreateNarratorBlockForVerse(25, "Verse 25", true));
+//			referenceBlocks.Add(CreateBlockForVerse(CharacterVerseData.GetStandardCharacterId("MAT", CharacterVerseData.StandardCharacter.BookOrChapter), 0, "Matayo 2", true, 2, "c"));
+			referenceBlocks.Add(CreateNarratorBlockForVerse(1, "Now when Jesus was born in Bethlehem of Judea in the days of King Herod, behold, wise men from the east came to Jerusalem, ", true, 2)
+				.AddVerse(2, "saying, "));
+			AddBlockForVerseInProgress(referenceBlocks, "magi (wise men from East)", "“Where is the one who is born King of the Jews? For we saw his star in the east, and have come to worship him.”");
+
+			ReferenceText.ApplyTo(vernBook, referenceBlocks, GetFormattedChapterAnnouncement, m_vernVersification, ScrVers.English);
+
+			var result = vernBook.GetScriptBlocks();
+			Assert.AreEqual(vernacularBlocks.Count, result.Count);
+
+			Assert.AreEqual(2, result[0].ReferenceBlocks.Count);
+			Assert.IsFalse(result[0].MatchesReferenceText);
+			Assert.AreEqual(referenceBlocks[0].GetText(true), result[0].ReferenceBlocks[0].GetText(true));
+			Assert.AreEqual(referenceBlocks[1].GetText(true), result[0].ReferenceBlocks[1].GetText(true));
+
+			Assert.AreEqual(0, result[1].ReferenceBlocks.Count);
+			Assert.IsFalse(result[1].MatchesReferenceText);
+		}
+
+		[Test]
 		public void ApplyTo_VernacularAndReferenceVersificationsDoNotMatch_SimpleVerseMapping_VersificationDifferencesResolvedBeforeMatching()
 		{
 			//GEN 32:1-32 = GEN 32:2-33

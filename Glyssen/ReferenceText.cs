@@ -201,19 +201,17 @@ namespace Glyssen
 		}
 
 		/// <summary>
-		/// This gets the included books from the project. As needed, blocks are broken up and matched to
-		/// correspond to this reference text (in which case, the books and blocks returned are copies, so
-		/// that the project itself is not modified).
+		/// This gets (a copy of) the included books from the project.
+		/// As needed, blocks are broken up and matched to correspond to this reference text.
+		/// The books and blocks returned are copies, so that the project itself is not modified.
 		/// </summary>
 		public IEnumerable<BookScript> GetBooksWithBlocksConnectedToReferenceText(Project project)
 		{
 			foreach (var book in project.IncludedBooks)
 			{
 				var referenceBook = Books.SingleOrDefault(b => b.BookId == book.BookId);
-				// REVIEW: Should we allow a reference text to be hooked up that does not have all the
-				// books in the vernacular? For now, Jon at FCBH says yes.
 				if (referenceBook == null)
-					yield return book;
+					yield return book.Clone(true); // Clone(true) to get the joined blocks
 				else
 				{
 					var clone = book.Clone(true);
@@ -309,6 +307,8 @@ namespace Glyssen
 					new VerseRef(bookNum, currentVernBlock.ChapterNumber, currentVernBlock.InitialEndVerseNumber, vernacularVersification);
 				var refInitEndVerse = (currentRefBlock.InitialEndVerseNumber == 0) ? refInitStartVerse :
 					new VerseRef(bookNum, currentRefBlock.ChapterNumber, currentRefBlock.InitialEndVerseNumber, referenceVersification);
+				//var vernLastVerse = new VerseRef(bookNum, currentVernBlock.ChapterNumber, currentVernBlock.LastVerse, vernacularVersification);
+				//var refLastVerse = new VerseRef(bookNum, currentRefBlock.ChapterNumber, currentRefBlock.LastVerse, referenceVersification);
 
 				FindAllScriptureBlocksThroughVerse(vernBlockList, vernInitEndVerse, ref iVernBlock, bookNum, vernacularVersification);
 				FindAllScriptureBlocksThroughVerse(refBlockList, vernInitEndVerse, ref iRefBlock, bookNum, referenceVersification);
@@ -317,6 +317,7 @@ namespace Glyssen
 				int numberOfRefBlocksInVerse = iRefBlock - indexOfRefVerseStart + 1;
 
 				if (vernInitStartVerse.CompareTo(refInitStartVerse) == 0 && vernInitEndVerse.CompareTo(refInitEndVerse) == 0 &&
+					//vernLastVerse.CompareTo(refLastVerse) == 0 &&
 					((numberOfVernBlocksInVerse == 1 && numberOfRefBlocksInVerse == 1) ||
 					(numberOfVernBlocksInVerse == numberOfRefBlocksInVerse &&
 					vernBlockList.Skip(indexOfVernVerseStart).Take(numberOfVernBlocksInVerse).Select(b => b.CharacterId).SequenceEqual(refBlockList.Skip(indexOfRefVerseStart).Take(numberOfRefBlocksInVerse).Select(b => b.CharacterId)))))
