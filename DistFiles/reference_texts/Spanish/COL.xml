@@ -297,6 +297,7 @@
     </ReferenceBlocks>
     <verse num="6" />
     <text>Por eso, habiendo recibido a Jesucristo como su Señor, deben comportarse como quienes pertenecen a Cristo, </text>
+    <sound start="true" userSpecifiesLocation="true" />
   </block>
   <block style="p" paragraphStart="true" chapter="2" initialStartVerse="7" characterId="narrator-COL" matchesReferenceText="true">
     <ReferenceBlocks style="p" paragraphStart="true" chapter="2" initialStartVerse="7" characterId="narrator-COL">

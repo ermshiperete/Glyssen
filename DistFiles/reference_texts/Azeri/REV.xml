@@ -1927,6 +1927,7 @@
     </ReferenceBlocks>
     <verse num="4" />
     <text>Onun quyruğu göy ulduzlarının üçdә birini süpürüb yer üzünә atdı. </text>
+    <sound userSpecifiesLocation="true" />
   </block>
   <block style="p" paragraphStart="true" chapter="12" initialStartVerse="4" characterId="narrator-REV" matchesReferenceText="true">
     <ReferenceBlocks style="p" paragraphStart="true" chapter="12" initialStartVerse="4" characterId="narrator-REV">
@@ -2919,6 +2920,7 @@
       <text>“Fallen, fallen is Babylon the great! She has become a habitation of demons, a prison of every unclean spirit, and a prison of every unclean and hateful bird! </text>
     </ReferenceBlocks>
     <text>&lt;&lt;Dağıldı! Böyük Babil dağıldı! O, cinlәrin mәskәni, Hәr cür natәmiz ruhun sığınacağı, Hәr cür murdar quşun yuvası, Hәr cür murdar vә mәnfur vәhşi heyvanın oylağı oldu. </text>
+    <sound start="true" userSpecifiesLocation="true" />
   </block>
   <block style="p" paragraphStart="true" chapter="18" initialStartVerse="3" characterId="angel, another, coming down from heaven" delivery="shouting" multiBlockQuote="Continuation" matchesReferenceText="true">
     <ReferenceBlocks style="p" paragraphStart="true" chapter="18" initialStartVerse="3" characterId="angel, another, coming down from heaven" delivery="shouting" multiBlockQuote="Continuation">
@@ -3491,6 +3493,7 @@
     </ReferenceBlocks>
     <verse num="11" />
     <text>Böyük ağ taxt vә onun üstündә Oturanı gördüm. </text>
+    <sound start="true" userSpecifiesLocation="true" />
     <text>Yer vә göy Onun önündәn qaçdı vә onlara yer tapılmadı.</text>
   </block>
   <block style="p" paragraphStart="true" chapter="20" initialStartVerse="12" characterId="narrator-REV" matchesReferenceText="true">
@@ -3651,6 +3654,7 @@
     </ReferenceBlocks>
     <verse num="10" />
     <text>O mәni Ruhda böyük vә uca bir dağın başına apardı. </text>
+    <sound start="true" userSpecifiesLocation="true" />
     <text>Oradan mәnә göydәn, Allahın yanından enәn müqәddәs şәhәri, Yerusәlimi göstәrdi.</text>
   </block>
   <block style="p" paragraphStart="true" chapter="21" initialStartVerse="11" characterId="narrator-REV" matchesReferenceText="true">

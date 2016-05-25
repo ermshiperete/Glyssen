@@ -2439,6 +2439,7 @@
     <text>Axşam çatanda İsanın şagirdlәri gölә enib </text>
     <verse num="17" />
     <text>bir qayığa mindilәr. Onlar gölün o biri sahilindә olan Kefernahuma gedirdi. </text>
+    <sound start="true" userSpecifiesLocation="true" />
     <text>Qaranlıq düşmüşdü, amma İsa hәlә onların yanına gәlmәmişdi.</text>
   </block>
   <block style="p" paragraphStart="true" chapter="6" initialStartVerse="18" characterId="narrator-JHN" matchesReferenceText="true">

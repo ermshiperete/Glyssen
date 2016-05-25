@@ -1928,6 +1928,7 @@
     </ReferenceBlocks>
     <verse num="4" />
     <text>Tel bilong en i brumim tru bikpela lain sta bilong skai na tromoi ol i go long graun. </text>
+    <sound userSpecifiesLocation="true" />
   </block>
   <block style="p" paragraphStart="true" chapter="12" initialStartVerse="4" characterId="narrator-REV" matchesReferenceText="true">
     <ReferenceBlocks style="p" paragraphStart="true" chapter="12" initialStartVerse="4" characterId="narrator-REV">
@@ -2918,6 +2919,7 @@
       <text>“Fallen, fallen is Babylon the great! She has become a habitation of demons, a prison of every unclean spirit, and a prison of every unclean and hateful bird! </text>
     </ReferenceBlocks>
     <text>"Bikpela taun Babilon em i bagarap pinis! Em i bagarap pinis! Nau em i kamap ples bilong ol spirit nogut i stap long en. Ol spirit nogut, na ol pisin i doti, na ol pisin nogut tru, </text>
+    <sound start="true" userSpecifiesLocation="true" />
     <text>ol tu i stap long en.</text>
   </block>
   <block style="p" paragraphStart="true" chapter="18" initialStartVerse="3" characterId="angel, another, coming down from heaven" delivery="shouting" multiBlockQuote="Continuation" matchesReferenceText="true">
@@ -3491,6 +3493,7 @@
     </ReferenceBlocks>
     <verse num="11" />
     <text>Orait mi lukim bikpela waitpela sia king i stap, na mi lukim dispela man i save sindaun long dispela sia. </text>
+    <sound start="true" userSpecifiesLocation="true" />
     <text>Na graun wantaim skai i ranawe long em, na ol i no i stap moa.</text>
   </block>
   <block style="p" paragraphStart="true" chapter="20" initialStartVerse="12" characterId="narrator-REV" matchesReferenceText="true">
@@ -3651,6 +3654,7 @@
     </ReferenceBlocks>
     <verse num="10" />
     <text>Na Holi Spirit i kamap strong long mi, na ensel i karim mi i go long wanpela bikpela maunten i antap moa. </text>
+    <sound start="true" userSpecifiesLocation="true" />
     <text>Na em i soim mi Jerusalem, dispela taun bilong God, em i stap wantaim God, na em i lusim heven na i kam daun.</text>
   </block>
   <block style="p" paragraphStart="true" chapter="21" initialStartVerse="11" characterId="narrator-REV" matchesReferenceText="true">

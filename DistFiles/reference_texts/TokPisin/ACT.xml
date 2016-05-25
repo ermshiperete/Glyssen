@@ -9082,6 +9082,7 @@
     </ReferenceBlocks>
     <verse num="15" />
     <text>na i sakim sip strong tru. Ol boskru i laik tanim sip na i go bek, tasol ol i no inap. </text>
+    <sound start="true" userSpecifiesLocation="true" />
     <text>Olsem na ol i larim win i sakim sip i go.</text>
   </block>
   <block style="p" paragraphStart="true" chapter="27" initialStartVerse="16" characterId="narrator-ACT" matchesReferenceText="true">

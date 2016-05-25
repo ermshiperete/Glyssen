@@ -1003,6 +1003,7 @@
     </ReferenceBlocks>
     <verse num="1" />
     <text>Agora que fomos aceitos por Deus pela nossa fé nele, temos paz com ele por meio do nosso Senhor Jesus Cristo. </text>
+    <sound start="true" userSpecifiesLocation="true" />
   </block>
   <block style="p" paragraphStart="true" chapter="5" initialStartVerse="2" characterId="narrator-ROM" matchesReferenceText="true">
     <ReferenceBlocks style="p" paragraphStart="true" chapter="5" initialStartVerse="2" characterId="narrator-ROM">

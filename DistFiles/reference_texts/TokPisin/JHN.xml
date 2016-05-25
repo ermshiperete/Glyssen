@@ -2437,6 +2437,7 @@
     <text>Long apinun ol disaipel bilong Jisas i go daun long raunwara. </text>
     <verse num="17" />
     <text>Ol i kalap long wanpela bot na ol i brukim raunwara i go. Ol i laik i go long Kaperneam. </text>
+    <sound start="true" userSpecifiesLocation="true" />
     <text>Em i tudak pinis, na Jisas i no kamap yet long ol.</text>
   </block>
   <block style="p" paragraphStart="true" chapter="6" initialStartVerse="18" characterId="narrator-JHN" matchesReferenceText="true">

@@ -1927,6 +1927,7 @@
     </ReferenceBlocks>
     <verse num="4" />
     <text>Avec sa queue, il balaie le tiers des étoiles du ciel et il les jette sur la terre. </text>
+    <sound userSpecifiesLocation="true" />
   </block>
   <block style="p" paragraphStart="true" chapter="12" initialStartVerse="4" characterId="narrator-REV" matchesReferenceText="true">
     <ReferenceBlocks style="p" paragraphStart="true" chapter="12" initialStartVerse="4" characterId="narrator-REV">
@@ -2919,6 +2920,7 @@
       <text>“Fallen, fallen is Babylon the great! She has become a habitation of demons, a prison of every unclean spirit, and a prison of every unclean and hateful bird! </text>
     </ReferenceBlocks>
     <text>&lt;&lt;Elle est tombée, elle est tombée, la grande Babylone! C'est là que les esprits mauvais habitent maintenant. Tous les esprits impurs, tous les oiseaux impurs et dégoûtants se réfugient dans cette ville. </text>
+    <sound start="true" userSpecifiesLocation="true" />
   </block>
   <block style="p" paragraphStart="true" chapter="18" initialStartVerse="3" characterId="angel, another, coming down from heaven" delivery="shouting" multiBlockQuote="Continuation" matchesReferenceText="true">
     <ReferenceBlocks style="p" paragraphStart="true" chapter="18" initialStartVerse="3" characterId="angel, another, coming down from heaven" delivery="shouting" multiBlockQuote="Continuation">
@@ -3491,6 +3493,7 @@
     </ReferenceBlocks>
     <verse num="11" />
     <text>Ensuite, je vois un grand siège royal tout blanc, avec quelqu'un qui est assis dessus. La </text>
+    <sound start="true" userSpecifiesLocation="true" />
     <text>terre et le ciel disparaissent devant lui, et on ne les revoit plus.</text>
   </block>
   <block style="p" paragraphStart="true" chapter="20" initialStartVerse="12" characterId="narrator-REV" matchesReferenceText="true">
@@ -3652,6 +3655,7 @@
     </ReferenceBlocks>
     <verse num="10" />
     <text>L'Esprit Saint vient en moi et il me transporte sur une grande montagne. Elle est très haute. </text>
+    <sound start="true" userSpecifiesLocation="true" />
     <text>Il me montre la ville sainte, Jérusalem qui descend du ciel, envoyée par Dieu.</text>
   </block>
   <block style="p" paragraphStart="true" chapter="21" initialStartVerse="11" characterId="narrator-REV" matchesReferenceText="true">

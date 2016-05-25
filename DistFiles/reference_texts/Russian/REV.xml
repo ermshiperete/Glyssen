@@ -1927,6 +1927,7 @@
     </ReferenceBlocks>
     <verse num="4" />
     <text>Хвост его увлек с неба третью часть звезд и поверг их на землю. </text>
+    <sound userSpecifiesLocation="true" />
   </block>
   <block style="p" paragraphStart="true" chapter="12" initialStartVerse="4" characterId="narrator-REV" matchesReferenceText="true">
     <ReferenceBlocks style="p" paragraphStart="true" chapter="12" initialStartVerse="4" characterId="narrator-REV">
@@ -2917,6 +2918,7 @@
       <text>“Fallen, fallen is Babylon the great! She has become a habitation of demons, a prison of every unclean spirit, and a prison of every unclean and hateful bird! </text>
     </ReferenceBlocks>
     <text>пал, пал Вавилон, великая блудница, сделался жилищем бесов и пристанищем всякому нечистому духу, пристанищем всякой нечистой и отвратительной птице; </text>
+    <sound start="true" userSpecifiesLocation="true" />
     <text>ибо яростным вином блудодеяния своего она напоила все народы,</text>
   </block>
   <block style="p" paragraphStart="true" chapter="18" initialStartVerse="3" characterId="angel, another, coming down from heaven" delivery="shouting" multiBlockQuote="Continuation" matchesReferenceText="true">
@@ -3488,6 +3490,7 @@
     </ReferenceBlocks>
     <verse num="11" />
     <text>И увидел я великий белый престол и Сидящего на нем, от лица Которого </text>
+    <sound start="true" userSpecifiesLocation="true" />
     <text>бежало небо и земля, и не нашлось им места.</text>
   </block>
   <block style="p" paragraphStart="true" chapter="20" initialStartVerse="12" characterId="narrator-REV" matchesReferenceText="true">
@@ -3649,6 +3652,7 @@
     </ReferenceBlocks>
     <verse num="10" />
     <text>И вознес меня в духе на великую и высокую гору, </text>
+    <sound start="true" userSpecifiesLocation="true" />
     <text>и показал мне великий город, святый Иерусалим, который нисходил с неба от Бога.</text>
   </block>
   <block style="p" paragraphStart="true" chapter="21" initialStartVerse="11" characterId="narrator-REV" matchesReferenceText="true">

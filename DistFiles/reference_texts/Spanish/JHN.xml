@@ -2439,6 +2439,7 @@
     <text>Al llegar la noche, los discípulos de Jesús bajaron al lago, </text>
     <verse num="17" />
     <text>subieron a una barca y comenzaron a cruzar el lago para llegar a Cafarnaúm. </text>
+    <sound start="true" userSpecifiesLocation="true" />
     <text>Ya estaba completamente oscuro, y Jesús no había regresado todavía.</text>
   </block>
   <block style="p" paragraphStart="true" chapter="6" initialStartVerse="18" characterId="narrator-JHN" matchesReferenceText="true">

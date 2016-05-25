@@ -9087,6 +9087,7 @@
     </ReferenceBlocks>
     <verse num="15" />
     <text>Le bateau est entraîné, il ne peut pas résister au vent, </text>
+    <sound start="true" userSpecifiesLocation="true" />
     <text>et nous nous laissons emporter.</text>
   </block>
   <block style="p" paragraphStart="true" chapter="27" initialStartVerse="16" characterId="narrator-ACT" matchesReferenceText="true">

@@ -1927,6 +1927,7 @@
     </ReferenceBlocks>
     <verse num="4" />
     <text>Con la cola arrastró la tercera parte de las estrellas del cielo, y las lanzó sobre la tierra. </text>
+    <sound userSpecifiesLocation="true" />
   </block>
   <block style="p" paragraphStart="true" chapter="12" initialStartVerse="4" characterId="narrator-REV" matchesReferenceText="true">
     <ReferenceBlocks style="p" paragraphStart="true" chapter="12" initialStartVerse="4" characterId="narrator-REV">
@@ -2917,6 +2918,7 @@
       <text>“Fallen, fallen is Babylon the great! She has become a habitation of demons, a prison of every unclean spirit, and a prison of every unclean and hateful bird! </text>
     </ReferenceBlocks>
     <text>&lt;&lt;¡Ya cayó, ya cayó la gran Babilonia! ¡Se ha vuelto vivienda de demonios, guarida de toda clase de espíritus impuros, nido de toda clase de aves impuras y de fieras impuras y odiosas! </text>
+    <sound start="true" userSpecifiesLocation="true" />
   </block>
   <block style="p" paragraphStart="true" chapter="18" initialStartVerse="3" characterId="angel, another, coming down from heaven" delivery="shouting" multiBlockQuote="Continuation" matchesReferenceText="true">
     <ReferenceBlocks style="p" paragraphStart="true" chapter="18" initialStartVerse="3" characterId="angel, another, coming down from heaven" delivery="shouting" multiBlockQuote="Continuation">
@@ -3489,6 +3491,7 @@
     </ReferenceBlocks>
     <verse num="11" />
     <text>Vi un gran trono blanco, y al que estaba sentado en él. </text>
+    <sound start="true" userSpecifiesLocation="true" />
     <text>Delante de su presencia desaparecieron completamente la tierra y el cielo, y no se los volvió a ver por ninguna parte.</text>
   </block>
   <block style="p" paragraphStart="true" chapter="20" initialStartVerse="12" characterId="narrator-REV" matchesReferenceText="true">
@@ -3649,6 +3652,7 @@
     </ReferenceBlocks>
     <verse num="10" />
     <text>Y en la visión que me hizo ver el Espíritu, el ángel me llevó a un monte grande y alto, </text>
+    <sound start="true" userSpecifiesLocation="true" />
     <text>y me mostró la gran ciudad santa de Jerusalén, que bajaba del cielo, de la presencia de Dios.</text>
   </block>
   <block style="p" paragraphStart="true" chapter="21" initialStartVerse="11" characterId="narrator-REV" matchesReferenceText="true">

@@ -2439,6 +2439,7 @@
     <text>De tardinha, os discípulos de Jesus desceram até o lago. </text>
     <verse num="17" />
     <text>Subiram num barco e começaram a atravessar o lago na direção da cidade de Cafarnaum. </text>
+    <sound start="true" userSpecifiesLocation="true" />
     <text>Quando já estava escuro, Jesus ainda não tinha vindo se encontrar com eles.</text>
   </block>
   <block style="p" paragraphStart="true" chapter="6" initialStartVerse="18" characterId="narrator-JHN" matchesReferenceText="true">

@@ -297,6 +297,7 @@
     </ReferenceBlocks>
     <verse num="6" />
     <text>Kamu telah menerima Kristus Yesus, Tuhan kita. Karena itu hendaklah hidupmu tetap di dalam Dia. </text>
+    <sound start="true" userSpecifiesLocation="true" />
   </block>
   <block style="p" paragraphStart="true" chapter="2" initialStartVerse="7" characterId="narrator-COL" matchesReferenceText="true">
     <ReferenceBlocks style="p" paragraphStart="true" chapter="2" initialStartVerse="7" characterId="narrator-COL">

@@ -297,6 +297,7 @@
     </ReferenceBlocks>
     <verse num="6" />
     <text>Yupela i kisim pinis Bikpela Krais Jisas, olsem na yupela i mas wokabaut wantaim em. </text>
+    <sound start="true" userSpecifiesLocation="true" />
   </block>
   <block style="p" paragraphStart="true" chapter="2" initialStartVerse="7" characterId="narrator-COL" matchesReferenceText="true">
     <ReferenceBlocks style="p" paragraphStart="true" chapter="2" initialStartVerse="7" characterId="narrator-COL">

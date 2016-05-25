@@ -9087,6 +9087,7 @@
     </ReferenceBlocks>
     <verse num="15" />
     <text>Kapal itu dilandanya dan tidak tahan menghadapi angin </text>
+    <sound start="true" userSpecifiesLocation="true" />
     <text>haluan. Karena itu kami menyerah saja dan membiarkan kapal kami terombang-ambing.</text>
   </block>
   <block style="p" paragraphStart="true" chapter="27" initialStartVerse="16" characterId="narrator-ACT" matchesReferenceText="true">

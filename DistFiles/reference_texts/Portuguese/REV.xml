@@ -1927,6 +1927,7 @@
     </ReferenceBlocks>
     <verse num="4" />
     <text>Com a cauda ele arrastou do céu a terça parte das estrelas e as jogou sobre a terra. </text>
+    <sound userSpecifiesLocation="true" />
   </block>
   <block style="p" paragraphStart="true" chapter="12" initialStartVerse="4" characterId="narrator-REV" matchesReferenceText="true">
     <ReferenceBlocks style="p" paragraphStart="true" chapter="12" initialStartVerse="4" characterId="narrator-REV">
@@ -2919,6 +2920,7 @@
       <text>“Fallen, fallen is Babylon the great! She has become a habitation of demons, a prison of every unclean spirit, and a prison of every unclean and hateful bird! </text>
     </ReferenceBlocks>
     <text>— Caiu! Caiu a grande Babilônia b! Agora quem vive ali são os demônios e todos os espíritos imundos. Todos os tipos de aves e feras imundas e nojentas vivem nela. </text>
+    <sound start="true" userSpecifiesLocation="true" />
   </block>
   <block style="p" paragraphStart="true" chapter="18" initialStartVerse="3" characterId="angel, another, coming down from heaven" delivery="shouting" multiBlockQuote="Continuation" matchesReferenceText="true">
     <ReferenceBlocks style="p" paragraphStart="true" chapter="18" initialStartVerse="3" characterId="angel, another, coming down from heaven" delivery="shouting" multiBlockQuote="Continuation">
@@ -3491,6 +3493,7 @@
     </ReferenceBlocks>
     <verse num="11" />
     <text>Então vi um grande trono branco e aquele que está sentado nele. </text>
+    <sound start="true" userSpecifiesLocation="true" />
     <text>A terra e o céu fugiram da sua presença e não foram vistos mais.</text>
   </block>
   <block style="p" paragraphStart="true" chapter="20" initialStartVerse="12" characterId="narrator-REV" matchesReferenceText="true">
@@ -3651,6 +3654,7 @@
     </ReferenceBlocks>
     <verse num="10" />
     <text>Então o Espírito de Deus me dominou, e o anjo me levou para uma montanha grande e muito alta. </text>
+    <sound start="true" userSpecifiesLocation="true" />
     <text>Ele me mostrou Jerusalém, a Cidade Santa, que descia do céu e vinha de Deus,</text>
   </block>
   <block style="p" paragraphStart="true" chapter="21" initialStartVerse="11" characterId="narrator-REV" matchesReferenceText="true">

@@ -9085,6 +9085,7 @@
     </ReferenceBlocks>
     <verse num="15" />
     <text>e arrastou o navio de tal maneira, que não pudemos fazer com que ele seguisse na direção certa. </text>
+    <sound start="true" userSpecifiesLocation="true" />
     <text>Por isso desistimos e deixamos que o vento nos levasse.</text>
   </block>
   <block style="p" paragraphStart="true" chapter="27" initialStartVerse="16" characterId="narrator-ACT" matchesReferenceText="true">

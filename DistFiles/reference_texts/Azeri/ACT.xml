@@ -9084,6 +9084,7 @@
     </ReferenceBlocks>
     <verse num="15" />
     <text>Fırtınaya düşәn gәmi külәyә müqavimәt göstәrә bilmirdi, </text>
+    <sound start="true" userSpecifiesLocation="true" />
     <text>әlacsız qaldıq vә külәk bizi aparırdı.</text>
   </block>
   <block style="p" paragraphStart="true" chapter="27" initialStartVerse="16" characterId="narrator-ACT" matchesReferenceText="true">
