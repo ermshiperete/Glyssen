@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using DesktopAnalytics;
 using Glyssen.Character;
 using Glyssen.Properties;
@@ -312,6 +314,8 @@ namespace Glyssen
 				var sheet = xls.Workbook.Worksheets.Add("Script");
 				sheet.Cells["A1"].LoadFromArrays(dataArray);
 
+				//ColorizeAnnotations(sheet.Cells);
+
 				sheet.Cells.Style.VerticalAlignment = ExcelVerticalAlignment.Top;
 				sheet.Row(1).Style.Font.Bold = true;
 
@@ -348,6 +352,48 @@ namespace Glyssen
 
 				xls.Save();
 			}
+		}
+
+		private void ColorizeAnnotations(ExcelRange cells)
+		{
+			foreach (var cell in cells)
+			{
+				string cellValue = cell.Value as string;
+				if (cellValue != null)
+				{
+					if (cellValue.Contains("|||"))
+					{
+						cell.IsRichText = true;
+						cell.Style.Font.Color.SetColor(Color.Red);
+						var r = cell.RichText.Add(cellValue);
+						r.Color = Color.Blue;
+					}
+					else
+					{
+						string[] splits;
+						if ((splits = Regex.Split(cellValue, "({F8.*?})")).Length > 1)
+						{
+							cell.IsRichText = true;
+							foreach (var split in splits)
+							{
+								var r = cell.RichText.Add(split);
+								var match = Regex.Match(split, "{F8.*?}");
+								r.Color = match.Success ? Color.Red : Color.Black;
+							}
+						}
+					}
+				}
+			}
+
+			//				_Wsheet1.Cells["C5"].Value = " This is an ";
+			//				_Wsheet1.Cells["C5"].Style.WrapText = true;
+			//				_Wsheet1.Cells["C5"].IsRichText = true;
+			//				_Wsheet1.Cells["C5"].Style.Font.Bold = true;
+			//				_Wsheet1.Cells["C5"].Style.Font.Size = 12;
+			//				_Wsheet1.Cells["C5"].Style.Font.Color.SetColor(Color.Blue);
+			//
+			//				var rtDir2 = _Wsheet1.Cells["C5"].RichText.Add(" Example.");
+			//				rtDir2.Color = Color.Red;
 		}
 
 		// internal for testing
